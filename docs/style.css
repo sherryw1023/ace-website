@@ -19,6 +19,7 @@
     font-weight: 500;
     color: #222;
     margin: 40px 0;
+    scroll-margin-top: 80px;
   }
   
   .section-title::before,
@@ -27,6 +28,9 @@
     flex: 1;
     border-bottom: 1px solid #888;
     margin: 0 16px;
+  }
+  #our-story{
+    scroll-margin-top: 80px; 
   }
 .content {
     padding: 0 40px;
