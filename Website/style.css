@@ -1,0 +1,166 @@
+<!-- style.css-->
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.8;
+  }
+  .section-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #222;
+    margin: 40px 0;
+  }
+  
+  .section-title::before,
+  .section-title::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #888;
+    margin: 0 16px;
+  }
+.content {
+    padding: 0 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+.navbar {
+  list-style: none;
+  background: #549feb;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #005599;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #005599;
+  min-width: 180px;
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content a {
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+}
+  
+.dropdown-content a:hover {
+background-color: #0077cc;
+}
+  
+.hero {
+  background-image: url('images/关于我们1.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* 添加深色蒙版，文字更清晰 */
+  z-index: 0;
+}
+
+.hero h1,
+.hero p,
+.hero .btn {
+  position: relative;
+  z-index: 1;
+}
+
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: rgba(0, 102, 204, 0.6);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.contact-form {
+  padding: 50px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} 
+
+  .responsive-img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 8px;
+  }
+  
+
+  .topbar {
+    background-color: #ffffff;
+    padding: 5px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo-container img {
+    height: 90px;
+    width: auto;
+  }
+  
