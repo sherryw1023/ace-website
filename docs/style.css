@@ -35,7 +35,7 @@
     scroll-margin-top: 80px; 
   }
 .content {
-    padding: 0 40px;
+    padding: 0 5vw;
     max-width: 1000px;
     margin: 0 auto;
     line-height: 1.8;
@@ -158,7 +158,7 @@ background-color: #0077cc;
 
   .topbar {
     background-color: #ffffff;
-    padding: 5px 100px;
+    padding: 5px 5vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
